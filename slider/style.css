@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #131313;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-container {
+  position: relative;
+  width: 800px;
+  margin: 0 15px;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+}
+
+.image {
+  min-width: 100%;
+  object-fit: cover;
+}
+
+button {
+  font-size: 30px;
+  color: #fff;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  border: none;
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
