@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer type="module"></script>
+    <script src="./utils.js" defer type="module"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Todo App</h1>
+    </header>
+
+    <main class="main">
+      <section class="add-input-container">
+        <input
+          type="text"
+          class="add-todo-input"
+          placeholder="Добавьте задачу"
+        />
+        <button class="add-todo-btn"></button>
+      </section>
+
+      <section class="search-input-container">
+        <input
+          type="text"
+          class="search-todo-input"
+          placeholder="Найдите задачу"
+        />
+      </section>
+
+      <section class="todo-list-container"></section>
+    </main>
+    <template class="todo-template">
+      <div class="todo">
+        <input type="checkbox" class="todo-checkbox" />
+        <div class="todo-info">
+          <p class="todo-text">Lorem, ipsum dolor.</p>
+          <span class="todo-created-date">01-01-2001</span>
+        </div>
+        <button class="remove-todo-btn">X</button>
+      </div>
+    </template>
+  </body>
+</html>

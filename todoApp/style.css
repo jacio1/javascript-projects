@@ -1,0 +1,37 @@
+.header {
+  text-align: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.add-input-container {
+
+}
+.add-todo-input {
+}
+.add-todo-btn {
+}
+.search-input-container {
+}
+.search-todo-input {
+}
+.todo-list-container {
+}
+.todo-template {
+}
+.todo {
+}
+.todo-checkbox {
+}
+.todo-info {
+}
+.todo-text {
+}
+.todo-created-date {
+}
+.remove-todo-btn {
+}
