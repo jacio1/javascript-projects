@@ -47,6 +47,7 @@ const filterAndRenderFilteredTodos = (searchValue) => {
   });
   renderFilteredTodo();
 };
+
 const createTodoLayout = (todo) => {
   const todoElement = document.importNode(todoTemplate.content, true);
 
@@ -59,7 +60,7 @@ const createTodoLayout = (todo) => {
   const todoCreatedDate = todoElement.querySelector(".todo-created-date");
   todoCreatedDate.textContent = todo.createdAt;
 
-  const removeTodoBtn = document.querySelector(".remove-todo-btn");
+  const removeTodoBtn = todoElement.querySelector(".remove-todo-btn");
   removeTodoBtn.disabled = !todo.completed;
 
   checkbox.addEventListener("change", (e) => {
