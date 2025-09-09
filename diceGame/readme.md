@@ -19,8 +19,9 @@
 
 ## Демо проекта
 
-Демо проекта доступно по ссылке:
+Демо проекта доступно по ссылке: https://jacio1.github.io/javascript-projects/diceGame/
 
 ![Интерфейс игры](./images/interface.png)
 
 ---
+
